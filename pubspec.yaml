@@ -3,13 +3,23 @@ description: A new Flutter package project.
 version: 0.0.1
 homepage:
 
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev 
+
 environment:
   sdk: '>=2.19.6 <3.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
+  cloud_firestore: ^4.4.3
+  dartz: ^0.10.1
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
+  http: ^0.13.6
+  tuiicore:
+    path: ../tuiicore/
+  tuiientitymodels:
+    path: ../tuiientitymodels/
 
 dev_dependencies:
   flutter_test:
